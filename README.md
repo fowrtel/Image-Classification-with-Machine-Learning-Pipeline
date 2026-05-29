@@ -18,16 +18,17 @@ Proyek ini mengimplementasikan pipeline klasifikasi gambar untuk mengenali **26 
 ## 📂 Repository Structure
 
 ```
-├── emnist_classification.ipynb   # Main Jupyter Notebook
-├── emnist-letters-train.csv      # Training data (download dari Kaggle)
+├── source
+    └── emnist_classification.ipynb   # Main Jupyter Notebook
+├── emnist-letters-train.csv        # Training data (download dari Kaggle)
 ├── emnist-letters-test.csv       # Testing data (download dari Kaggle)
 ├── README.md
 └── outputs/
-    ├── sample_images.png
-    ├── hog_visualization.png
-    ├── confusion_matrix.png
-    ├── performance_comparison.png
-    └── predictions_sample.png
+    ├── sample_images.jpeg
+    ├── hog_visualization.jpeg
+    ├── confusion_matrix.jpeg
+    ├── performance_comparison.jpeg
+    └── predictions_sample.jpeg
 ```
 
 > ⚠️ File CSV tidak di-upload ke repo karena ukurannya besar. Download sendiri dari Kaggle (link di bawah).
