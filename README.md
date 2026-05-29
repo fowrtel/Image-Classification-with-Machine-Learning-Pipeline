@@ -79,7 +79,7 @@ Parameter yang dicari dengan Grid Search (5-fold CV):
 ### 1. Clone repo
 
 ```bash
-git clone https://github.com/<username>/<repo-name>.git
+git clone https://github.com/fowrtel/Image-Classification-with-Machine-Learning-Pipeline.git
 cd <repo-name>
 ```
 
@@ -112,14 +112,30 @@ Pilih **Cell → Run All**.
 
 | Metric | Train | Test |
 |---|---|---|
-| Accuracy | - | - |
-| Precision | - | - |
-| Recall | - | - |
-| F1-Score | - | - |
+| Accuracy |  0.995673 | 0.840385 |
+| Precision | 0.995678 | 0.844490 |
+| Recall | 0.995673 | 0.840385 |
+| F1-Score | 0.995673 | 0.839171 |
 
 > Isi tabel ini setelah menjalankan notebook.
 
-**Best SVM Parameters:** *(isi setelah grid search selesai)*
+**Best SVM Parameters:**
+Top 10 kombinasi parameter:
+
+| param_kernel | param_C | param_gamma | mean_test_score | std_test_score | rank_test_score |
+| :--- | ---: | :--- | ---: | ---: | ---: |
+| poly | 1 | scale | 0.812019 | 0.014849 | 1 |
+| rbf | 10 | scale | 0.807212 | 0.015385 | 2 |
+| rbf | 100 | scale | 0.806731 | 0.015020 | 3 |
+| poly | 10 | scale | 0.805288 | 0.016304 | 4 |
+| poly | 100 | scale | 0.805288 | 0.016304 | 4 |
+| rbf | 1 | scale | 0.800481 | 0.016930 | 6 |
+| rbf | 100 | auto | 0.787981 | 0.020476 | 7 |
+| rbf | 10 | auto | 0.724519 | 0.021747 | 8 |
+| poly | 1 | auto | 0.657212 | 0.027559 | 9 |
+| poly | 10 | auto | 0.657212 | 0.027559 | 9 |
+
+Model terbaik: `SVC(C=1, kernel='poly', probability=True, random_state=42)`
 
 ---
 
