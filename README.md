@@ -117,7 +117,6 @@ Pilih **Cell → Run All**.
 | Recall | 0.995673 | 0.840385 |
 | F1-Score | 0.995673 | 0.839171 |
 
-> Isi tabel ini setelah menjalankan notebook.
 
 **Best SVM Parameters:**
 Top 10 kombinasi parameter:
