@@ -150,7 +150,7 @@ Model terbaik: `SVC(C=1, kernel='poly', probability=True, random_state=42)`
 
 ---
 
-preview : [![Open in nbviewer](https://img.shields.io/badge/Open-NBViewer-orange)](https://nbviewer.org/github/fowrtel/Image-Classification-with-Machine-Learning-Pipeline/blob/main/source/emnist_classification.ipynb)
+preview : https://colab.research.google.com/github/fowrtel/Image-Classification-with-Machine-Learning-Pipeline/blob/main/source/emnist_classification.ipynb
 
 ## 📄 License
 
